@@ -4,8 +4,8 @@
 This project applies Hierarchical Clustering, K-Means, and DBSCAN to the Mushroom Dataset to uncover natural groupings based on mushroom characteristics. The dataset contains categorical features, making it an interesting case for clustering methods that typically handle numerical data.
 
 ## Dataset
-The dataset is available in this repository: [`mushrooms.csv`](./mushrooms.csv)
-Size: 8124 rows, 22 categorical features (e.g., cap shape, gill color, odor)
+* The dataset is available in this repository: [`mushrooms.csv`](./mushrooms.csv)
+* Size: 8124 rows, 22 categorical features (e.g., cap shape, gill color, odor)
 ### Preprocessing:
 * Categorical encoding using Label Encoding
 * Feature scaling using StandardScaler
