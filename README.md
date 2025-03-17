@@ -27,11 +27,10 @@ Size: 8124 rows, 22 categorical features (e.g., cap shape, gill color, odor)
 * Automatically detects clusters without predefined k
 * Struggles with categorical & high-dimensional data
 
-## Performance Evaluation
-* Hierarchical & K-Means performed well, but DBSCAN struggled due to categorical data and lack of density variations.
-* The Adjusted Rand Index (ARI) between Hierarchical and K-Means is {ari_hierarchical_kmeans:.4f}, showing that both methods produced similar cluster assignments.
 
-## Clustering Methods & Visualizations  
+## Visualizations  
+
+![Hierarchical Clustering - PCA Plot](hierarchical_clusters.png)
 
 ### **1. Hierarchical Clustering (Dendrogram)**
 ![Hierarchical Clustering - Dendrogram](hierarchical_dendrogram.png)
@@ -44,6 +43,10 @@ Size: 8124 rows, 22 categorical features (e.g., cap shape, gill color, odor)
 
 ### **4. DBSCAN Clustering - PCA Scatter Plot**
 ![DBSCAN Clustering - PCA Plot](dbscan_clusters.png)
+
+## Performance Evaluation
+* Hierarchical & K-Means performed well, but DBSCAN struggled due to categorical data and lack of density variations.
+* The Adjusted Rand Index (ARI) between Hierarchical and K-Means is {ari_hierarchical_kmeans:.4f}, showing that both methods produced similar cluster assignments.
 
 ## Outputs
 * Clustered dataset saved: mushroom_clusters.csv
