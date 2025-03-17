@@ -27,23 +27,6 @@ This project applies Hierarchical Clustering, K-Means, and DBSCAN to the Mushroo
 * Automatically detects clusters without predefined k
 * Struggles with categorical & high-dimensional data
 
-
-## Visualizations  
-
-![Hierarchical Clustering - PCA Plot](hierarchical_clusters.png)
-
-### **1. Hierarchical Clustering (Dendrogram)**
-![Hierarchical Clustering - Dendrogram](hierarchical_dendrogram.png)
-
-### **2. Hierarchical Clustering - PCA Scatter Plot**
-![Hierarchical Clustering - PCA Plot](hierarchical_clusters.png)
-
-### **3. K-Means Clustering - PCA Scatter Plot**
-![K-Means Clustering - PCA Plot](kmeans_clusters.png)
-
-### **4. DBSCAN Clustering - PCA Scatter Plot**
-![DBSCAN Clustering - PCA Plot](dbscan_clusters.png)
-
 ## Performance Evaluation
 * Hierarchical & K-Means performed well, but DBSCAN struggled due to categorical data and lack of density variations.
 * The Adjusted Rand Index (ARI) between Hierarchical and K-Means is {ari_hierarchical_kmeans:.4f}, showing that both methods produced similar cluster assignments.
