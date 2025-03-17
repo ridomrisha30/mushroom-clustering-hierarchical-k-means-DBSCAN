@@ -6,10 +6,10 @@ This project applies Hierarchical Clustering, K-Means, and DBSCAN to the Mushroo
 ## Dataset
 * The dataset is available in this repository: [`mushrooms.csv`](./mushrooms.csv)
 * Size: 8124 rows, 22 categorical features (e.g., cap shape, gill color, odor)
-### Preprocessing:
-* Categorical encoding using Label Encoding
-* Feature scaling using StandardScaler
-* PCA (2 components) for visualization
+* Preprocessing:
+  * Categorical encoding using Label Encoding
+  * Feature scaling using StandardScaler
+  * PCA (2 components) for visualization
 
 ## Clustering Methods Used
 1️. Hierarchical Clustering (Agglomerative, Ward's Method)
